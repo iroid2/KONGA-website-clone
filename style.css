@@ -168,6 +168,9 @@ opacity: .7;
 .moboNav{
     display: none;
 }
+.mob-hero-bottom{
+    display: none;
+}
 
 
 
@@ -392,7 +395,20 @@ opacity: .7;
         border-radius: 1rem 1rem;
         padding : .4rem;
     }
-    
+    .mob-hero-bottom{
+        display: block;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: .2rem .3rem;
+    }
+    .mobo-hero-left-Img{
+        width: 49.1%;
+        border-radius: .3rem;
+
+    }
     
     
     
@@ -435,6 +451,20 @@ opacity: .7;
     .mobSerach{
         margin-right: 1rem;
     }
+    .mob-hero-bottom{
+        display: block;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: .2rem .3rem;
+    }
+    .mobo-hero-left-Img{
+        width: 49.1%;
+        border-radius: .3rem;
+
+    }
 }
 @media screen and (max-width: 392px) {
     .top-mobo-nav{
@@ -450,6 +480,20 @@ opacity: .7;
     box-shadow: 0 2px #d6d4d4;
     width: 100%;
       }
+      .mob-hero-bottom{
+        display: block;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: .2rem .3rem;
+    }
+    .mobo-hero-left-Img{
+        width: 49.1%;
+        border-radius: .3rem;
+
+    }
 }
 @media screen and (max-width: 300px) {
     .top-mobo-nav{
