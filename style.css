@@ -338,6 +338,16 @@ opacity: .7;
         /* padding: 1rem 1rem; */
         flex-direction: column;
     }
+        .left-Hero-Sectn{
+        width: 100%;
+        padding: 0rem .3rem;
+        display: none;
+    }
+    .rightHeroImg{
+        width:100% ;
+        border-radius: .4rem;
+        /* background-color: red; */
+    }
     .chev{
         background-color:rgb(252,252,253);
         width: 55px;
@@ -376,15 +386,7 @@ opacity: .7;
 
         /* background-color: green; */
     }
-    .left-Hero-Sectn{
-        width: 30%;
-        padding: 0rem .3rem;
-    }
-    .rightHeroImg{
-        width:100% ;
-        border-radius: .4rem;
-        /* background-color: red; */
-    }
+
     .hero-left-Img{
         width: 150%;
         border-radius: 1rem 1rem;
@@ -408,7 +410,8 @@ opacity: .7;
     .mobIcons{
       margin-top: 1rem;
       border: none;
-      gap: 1rem;
+      gap: 3rem;
+      /* background-color: red; */
   padding: 10px;
   box-shadow: 0 2px #d6d4d4;
   width: 100%;
@@ -424,7 +427,7 @@ opacity: .7;
     .mobIcons{
       margin-top: 1rem;
       border: none;
-      gap: 1rem;
+      gap: 2rem;
   padding: 10px;
   box-shadow: 0 2px #d6d4d4;
   width: 100%;
@@ -439,6 +442,14 @@ opacity: .7;
         width: 100%;
         
     }
+    .mobIcons{
+        margin-top: 1rem;
+        border: none;
+        gap: 1rem;
+    padding: 10px;
+    box-shadow: 0 2px #d6d4d4;
+    width: 100%;
+      }
 }
 @media screen and (max-width: 300px) {
     .top-mobo-nav{
@@ -449,12 +460,26 @@ opacity: .7;
     .mobSerach{
         margin-right: 2rem;
     }
+    .icon-wrapp p{
+        font-size: .7rem;
+    }
 }
 @media screen and (max-width: 238px) {
     .top-mobo-nav{
         gap: 3rem;
         width: 100%;
         
+    }
+    .mobIcons{
+        gap: .1rem;
+        /* background-color: blueviolet; */
+    }
+    .icon-wrapp p{
+        font-size: .7rem;
+    }
+    .icon-wrapp svg{
+        width: 20px;
+        font-size: 1rem;
     }
     .mobSerach{
         margin-right: 0rem;
@@ -465,5 +490,8 @@ opacity: .7;
         gap: 1rem;
         width: 100%;
         
+    }
+    .icon-wrapp p{
+        font-size: .7rem;
     }
 }
