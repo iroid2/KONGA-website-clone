@@ -427,6 +427,9 @@ opacity: .7;
   box-shadow: 0 2px #d6d4d4;
   width: 100%;
     }
+    .mobSerach{
+        margin-right: 2rem;
+    }
 }
 @media screen and (max-width: 392px) {
     .top-mobo-nav{
@@ -440,6 +443,9 @@ opacity: .7;
         gap: 6rem;
         width: 100%;
         
+    }
+    .mobSerach{
+        margin-right: 2rem;
     }
 }
 @media screen and (max-width: 228px) {
