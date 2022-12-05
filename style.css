@@ -1,0 +1,451 @@
+/* browser reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", sans-serif;
+}
+body{
+    width: 100vw;
+}
+.partnerIcons{
+    width: 101px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alignCenter{
+    display: flex;
+    align-items: center;
+}
+.flex-Start{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.header{
+    font-size: .8rem;
+}
+.partnerships{
+    width: 100%;
+    gap: 3rem;
+    background-color: rgb(246,246,246);
+    padding: .3rem 0;
+    padding-left: 0rem;
+}
+.midNav{
+    width: 100%;
+    gap: 3rem;
+    padding: .5rem 2rem;
+    background-color: rgb(237,1,127);
+}
+.nav-logo{
+    width: 123px;
+}
+.searchIcon{
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.searchArea{
+    width:45% ;
+    margin: 0;
+    position: relative;
+}
+.searchArea input{
+    width: 90%;
+    padding: .1rem .5rem;
+    border-radius: .3rem;
+    border: none;
+}
+.searchWrapp{
+    background-color: orange;
+    width: 60px;
+    right: 3rem;
+    position: absolute;
+    padding: .6rem;
+    border-top-right-radius: .3rem;
+}
+.white{
+    color: white;
+}
+.help{
+    
+}
+.leftNav{
+    margin: 0;
+    gap: 2rem;
+}
+.cart-wrapp{
+    background-color: rgb(51,178,123);
+    gap: 2rem;
+    padding-left: .8rem;
+    padding-right: .8rem;
+    font-size: .7rem;
+    
+}
+.order{
+    width: 10px;
+    background-color: white;
+    padding: .2rem .3rem;
+}
+.lowerNav{
+    gap: 3rem;
+    background-color: rgb(148,0,79);
+    padding: .7rem 1rem;
+    font-size: .9rem;
+}
+.lowerNav a{
+    /* color: black; */
+}
+.category{
+    font-weight: bold;
+}
+body .heroSectn{
+    width: 100%;
+    gap: .7rem;
+    padding: 1rem 1rem;
+}
+.chev{
+    background-color:rgb(252,252,253);
+    width: 55px;
+    height: 55px;
+    padding: .2rem .2rem;
+    border-radius: 2rem;
+    box-shadow: 25px black;
+}
+.right-absol{
+    position: absolute;
+    top: 10rem;
+    left: 1.4rem;
+    opacity: .0;
+}
+
+
+.left-absol{
+    right: 1.4rem;
+    position: absolute;
+    top: 10rem;
+    opacity: .0;
+    
+    
+}
+.left-absol:hover,.right-absol:hover{
+opacity: .7;
+}
+
+.chevIcon{
+
+}
+.right-Hero-Sectn{
+    width: 70%;
+    border-radius: .4rem;
+    position: relative;
+    /* background-color: green; */
+}
+.left-Hero-Sectn{
+    width: 30%;
+    padding: 0rem .3rem;
+}
+.rightHeroImg{
+    width:100% ;
+    border-radius: .4rem;
+    /* background-color: red; */
+}
+.hero-left-Img{
+    width: 49.4%;
+    border-radius: 1rem 1rem;
+    padding : .4rem;
+}
+.mobLog{
+    display: none;
+}
+.moboNav{
+    display: none;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    body{
+        width: 100vw;
+    }
+    .partnerIcons{
+        width: 101px;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .alignCenter{
+        display: flex;
+        align-items: center;
+    }
+    .flex-Start{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+    
+    .header{
+        font-size: .8rem;
+    }
+    .partnerships{
+        display: none;
+    }
+    .midNav{
+        display: none;
+    }
+    .mobLog{
+        display: block;
+        width: 80px;
+    }
+    .moboNav{
+        width: 100%;
+        display: block;
+        /* background-color: green; */
+        display: flex;
+        padding: .2rem .5rem;
+        justify-content: space-between;
+        flex-direction: column;
+        /* position: fixed; */
+    }
+    .mobSearch input{
+        width: 90%;
+        border-radius: .3rem;
+        border: none;
+        padding: 0rem 4rem;
+        background-color: rgb(228, 225, 225);
+        height: 30px;
+    }
+    .top-mobo-nav{
+        gap: 23rem;
+        width: 100%;
+    }
+   
+    .nav-logo{
+        width: 123px;
+    }
+    .right-mob-nav{
+        gap: .6rem;
+    }
+    .top-mobo-nav{
+        margin-top: 1rem;
+    }
+    .mobSerach{
+        position: absolute;
+        right: 1.2rem;
+    }
+    .top-mobo-nav{
+        border: 2px;
+    }
+    
+    
+    .left-mob-nav{
+     gap: 1rem;
+    }
+    .mobIcons{
+      margin-top: 1rem;
+      border: none;
+      gap: 2rem;
+  padding: 10px;
+  box-shadow: 0 2px #d6d4d4;
+  width: 100%;
+    }
+    .bottom-mobo-nav{
+        margin-top: 1rem;
+        width: 80%;
+    }
+    .bottom-mobo-nav input{
+        width: 90%;
+    }
+    .searchIcon{
+        
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .searchArea{
+        width:45% ;
+        margin: 0;
+        position: relative;
+    }
+    .searchArea input{
+        width: 90%;
+        padding: .1rem .5rem;
+        border-radius: .3rem;
+        border: none;
+    }
+    .searchWrapp{
+        background-color: orange;
+        width: 60px;
+        right: 3rem;
+        position: absolute;
+        padding: .6rem;
+        border-top-right-radius: .3rem;
+    }
+    .white{
+        color: white;
+    }
+    .help{
+        
+    }
+    .leftNav{
+        margin: 0;
+        gap: 2rem;
+    }
+    .cart-wrapp{
+        background-color: rgb(51,178,123);
+        gap: 2rem;
+        padding-left: .8rem;
+        padding-right: .8rem;
+        font-size: .7rem;
+        
+    }
+    .order{
+        width: 10px;
+        background-color: white;
+        padding: .2rem .3rem;
+    }
+    .lowerNav{
+        gap: 3rem;
+        background-color: rgb(148,0,79);
+        padding: .7rem 1rem;
+        font-size: .9rem;
+        display: none;
+    }
+    .lowerNav a{
+        /* color: black; */
+    }
+    .category{
+        font-weight: bold;
+    }
+    body .heroSectn{
+        width: 100%;
+        gap: .7rem;
+        /* padding: 1rem 1rem; */
+        flex-direction: column;
+    }
+    .chev{
+        background-color:rgb(252,252,253);
+        width: 55px;
+        height: 55px;
+        padding: .2rem .2rem;
+        border-radius: 2rem;
+        box-shadow: 25px black;
+    }
+    .right-absol{
+        position: absolute;
+        top: 10rem;
+        left: 1.4rem;
+        opacity: .0;
+    }
+    
+    
+    .left-absol{
+        right: 1.4rem;
+        position: absolute;
+        top: 10rem;
+        opacity: .0;
+        display: none;
+
+    }
+    .left-absol:hover,.right-absol:hover{
+    opacity: .7;
+    }
+    
+    .chevIcon{
+    
+    }
+    .right-Hero-Sectn{
+        width: 100%;
+        border-radius: .4rem;
+        position: relative;
+
+        /* background-color: green; */
+    }
+    .left-Hero-Sectn{
+        width: 30%;
+        padding: 0rem .3rem;
+    }
+    .rightHeroImg{
+        width:100% ;
+        border-radius: .4rem;
+        /* background-color: red; */
+    }
+    .hero-left-Img{
+        width: 150%;
+        border-radius: 1rem 1rem;
+        padding : .4rem;
+    }
+    
+    
+    
+    
+}
+@media screen and (max-width: 500px) {
+    .top-mobo-nav{
+        gap: 16rem;
+        width: 100%;
+    }
+    .bottom-mobo-nav{
+        margin-top: 1rem;
+        width: 100%;
+        
+    }
+    .mobIcons{
+      margin-top: 1rem;
+      border: none;
+      gap: 1rem;
+  padding: 10px;
+  box-shadow: 0 2px #d6d4d4;
+  width: 100%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .top-mobo-nav{
+        gap: 14rem;
+        width: 100%;
+    }
+    .mobIcons{
+      margin-top: 1rem;
+      border: none;
+      gap: 1rem;
+  padding: 10px;
+  box-shadow: 0 2px #d6d4d4;
+  width: 100%;
+    }
+}
+@media screen and (max-width: 350px) {
+    .top-mobo-nav{
+        gap: 8rem;
+        width: 100%;
+        
+    }
+}
+@media screen and (max-width: 300px) {
+    .top-mobo-nav{
+        gap: 8rem;
+        width: 100%;
+        
+    }
+}
+@media screen and (max-width: 250px) {
+    .top-mobo-nav{
+        gap: 4rem;
+        width: 100%;
+        
+    }
+}
