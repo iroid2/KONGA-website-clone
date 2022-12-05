@@ -347,8 +347,9 @@ opacity: .7;
         display: none;
     }
     .rightHeroImg{
-        width:100% ;
+        width:90% ;
         border-radius: .4rem;
+        margin-left: .5rem;
         /* background-color: red; */
     }
     .chev{
