@@ -428,23 +428,29 @@ opacity: .7;
   width: 100%;
     }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 392px) {
     .top-mobo-nav{
-        gap: 8rem;
+        gap: 9rem;
         width: 100%;
         
     }
 }
 @media screen and (max-width: 300px) {
     .top-mobo-nav{
-        gap: 8rem;
+        gap: 6rem;
         width: 100%;
         
     }
 }
-@media screen and (max-width: 250px) {
+@media screen and (max-width: 228px) {
     .top-mobo-nav{
         gap: 4rem;
+        width: 100%;
+        
+    }
+@media screen and (max-width: 196px) {
+    .top-mobo-nav{
+        gap: 1rem;
         width: 100%;
         
     }
