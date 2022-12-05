@@ -395,7 +395,7 @@ opacity: .7;
     
     
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
     .top-mobo-nav{
         gap: 16rem;
         width: 100%;
@@ -413,8 +413,10 @@ opacity: .7;
   box-shadow: 0 2px #d6d4d4;
   width: 100%;
     }
-}
-@media screen and (max-width: 450px) {
+    .mobSerach{
+        margin-right: 1rem;
+    }
+@media screen and (max-width: 458px) {
     .top-mobo-nav{
         gap: 14rem;
         width: 100%;
@@ -428,7 +430,7 @@ opacity: .7;
   width: 100%;
     }
     .mobSerach{
-        margin-right: 2rem;
+        margin-right: 1rem;
     }
 }
 @media screen and (max-width: 392px) {
@@ -448,11 +450,15 @@ opacity: .7;
         margin-right: 2rem;
     }
 }
-@media screen and (max-width: 228px) {
+@media screen and (max-width: 238px) {
     .top-mobo-nav{
-        gap: 4rem;
+        gap: 3rem;
         width: 100%;
         
+    }
+    .mobSerach{
+        margin-right: 0rem;
+        /* background-color:green; */
     }
 @media screen and (max-width: 196px) {
     .top-mobo-nav{
