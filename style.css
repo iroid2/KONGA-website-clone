@@ -11,6 +11,9 @@ body{
 .partnerIcons{
     width: 101px;
 }
+.ham-list{
+    display: none;
+}
 .center{
     display: flex;
     justify-content: center;
