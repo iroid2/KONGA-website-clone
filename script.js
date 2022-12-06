@@ -2,7 +2,7 @@ const hamList=document.querySelector(".ham-list")
 const hamSvg=document.querySelector(".hamSvg")
 const moboNav=document.querySelector(".moboNav")
 const heroSectn=document.querySelector(".heroSectn")
-const cancel=document.querySelector(".cancel")
+const cancel=document.querySelector("#cancelBtn")
 
 
 
@@ -12,7 +12,9 @@ hamSvg.addEventListener(("click"),function(e){
     hamList.classList.add("active")
 })
 cancel.addEventListener(("click"),function(e){
-    hamList.classList.add("inactive")
+    hamList.classList.remove("active")
+    heroSectn.classList.toggle("inactive")
+    moboNav.classList.toggle("inactive")
 })
 
 
