@@ -59,7 +59,7 @@ a{
 }
 .searchArea input{
     width: 90%;
-    padding: .1rem .5rem;
+    padding: .1rem 0rem;
     border-radius: .3rem;
     border: none;
 }
@@ -233,8 +233,17 @@ opacity: .7;
         height: 30px;
     }
     .top-mobo-nav{
+        paddin
         gap: 23rem;
         width: 100%;
+        padding: 1rem 1rem;
+        background-color: gray;
+    }
+    .flex-spacebtn{
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
     }
    
     .nav-logo{
@@ -272,6 +281,7 @@ opacity: .7;
     }
     .bottom-mobo-nav input{
         width: 90%;
+        font-size: 1rem;
     }
     .searchIcon{
         
@@ -410,6 +420,108 @@ opacity: .7;
         border-radius: .3rem;
 
     }
+    .moboNav{}
+    .heroSectn{
+        display: none;
+    }
+    .ham-list{
+        width: 100%;
+        visibility:visible ;
+        padding: .5rem .5rem;
+    }
+
+    
+    .flex-spacebtn{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .flex-start{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .padding-sides{
+        padding: 0 .5rem;
+    }
+    button{
+        width: 45%;
+        padding: .8rem 1.1rem;
+        background-color: transparent;
+        border: 1.5px solid rgb(237,1,127);
+        color: rgb(237,1,127);
+        font-weight: bolder;
+        border-radius: .3rem;
+    }
+    .partnerships{
+        display: none;
+    }
+    .top-ham-list{
+        /* background-color: red; */
+        padding: 1rem 1rem;
+        width: 100%;
+    }
+    .right-top-ham-list{
+        gap: 1rem;
+    }
+    .left-top-ham-list{
+        gap: .5rem;
+    }
+    .bttm-ham-list{
+        padding-top: 1rem;
+        padding-bottom: .5rem;
+        border-radius: .4rem;
+    }
+    .bttm-ham-list{
+        gap: 1rem;
+    }
+    
+    .services{
+        width: 100vw;
+        flex-wrap: wrap;
+        color: rgb(73, 73, 73);
+        border: .2px solid rgb(226,226,226) ;
+        border-left: none;
+        border-right: none;
+    }
+    .services a{
+        text-decoration: none;
+        
+    }
+    .servicegap{
+        color: rgb(87,87,87);
+        gap: 1rem;
+    }
+    h3{
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+    }
+    .servDetail{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+        gap: .2rem;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
     
