@@ -185,7 +185,104 @@ opacity: .7;
     }
     .partnerIcons{
         width: 101px;
+        display:none;
     }
+    .ham-list{
+        display: none;
+    }
+    .active{
+        display: block;
+    }
+    .inactive{
+        visibility: hidden;
+    }
+    .servDetail p{
+        font-size: 13px;
+    }
+    .servSectnCar{
+        width: 50%;
+        gap: .6rem;
+       padding: 1rem 1rem;
+        border-left: .2px solid rgb(226,226,226) ;
+        border-bottom: .2px solid rgb(226,226,226) ;
+
+    }
+    .contact-us{
+        display: flex;
+        justify-content: flex-start;
+        gap: 1rem;
+        padding-left: 1rem;
+        font-size: .2rem;
+    }
+    .contact-us p{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: gray;
+    }
+    .bord-rig{
+        border-right: none;
+    }
+    
+    .bord-left{
+        border-left: none;
+        /* background-color: red; */
+    }
+    
+a{
+    text-decoration: none;
+}
+.categories-sectn{
+    padding: 1rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 1rem;
+    flex-direction: column;
+}
+.categoryDetail{
+    border: 1px solid rgb(194, 192, 192);
+    padding: .7rem 0rem;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    /* gap: .4rem; */
+}
+.categoryDetail a{
+    color: rgb(100, 99, 99);
+    font-size: 13px;
+}
+.category{
+    color: black;
+    font-size: 1.1rem;
+}
+.categ-gap{
+    /* gap: 3rem; */
+}
+.mobo-ham-footer{
+    width: 100%;
+    display: flex;
+    padding: 1.5rem 1.7rem;
+    gap: 3.8rem;
+    justify-content: flex-start;
+    /* gap: -10rem; */
+}
+.home p{
+color: rgb(87,87,87);
+}
+.home svg{
+color: rgb(87,87,87);
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .top-ham-list{
+    /* display: block;/ */
+    display: flex;
+  }
+  
+
+    
     .center{
         display: flex;
         justify-content: center;
@@ -426,6 +523,7 @@ opacity: .7;
     }
     .ham-list{
         width: 100%;
+        width: 20%;
         visibility:visible ;
         padding: .5rem .5rem;
     }

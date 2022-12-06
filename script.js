@@ -1,4 +1,20 @@
-// alert('working')
+const hamList=document.querySelector(".ham-list")
+const hamSvg=document.querySelector(".hamSvg")
+const moboNav=document.querySelector(".moboNav")
+const heroSectn=document.querySelector(".heroSectn")
+const cancel=document.querySelector(".cancel")
+
+
+
+hamSvg.addEventListener(("click"),function(e){
+    heroSectn.classList.add("inactive")
+    moboNav.classList.add("inactive")
+    hamList.classList.add("active")
+})
+cancel.addEventListener(("click"),function(e){
+    hamList.classList.add("inactive")
+})
+
 
 // $('.owl-carousel').owlCarousel({
 //     loop:true,
