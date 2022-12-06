@@ -353,7 +353,7 @@ color: rgb(87,87,87);
         gap: .6rem;
     }
     .top-mobo-nav{
-        margin-top: 1rem;
+        /* margin-top: 1rem; */
     }
     .mobSerach{
         position: absolute;
@@ -724,7 +724,7 @@ color: rgb(87,87,87);
 }
 @media screen and (max-width: 238px) {
     .top-mobo-nav{
-        gap: 3rem;
+        gap: 0rem;
         width: 100%;
         
     }
