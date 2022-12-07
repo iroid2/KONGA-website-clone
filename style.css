@@ -11,9 +11,6 @@ body{
 .partnerIcons{
     width: 101px;
 }
-.ham-list{
-    display: none;
-}
 .center{
     display: flex;
     justify-content: center;
@@ -174,6 +171,9 @@ opacity: .7;
 .mob-hero-bottom{
     display: none;
 }
+.ham-list{
+    display: none;
+}
 
 
 
@@ -192,6 +192,12 @@ opacity: .7;
     }
     .ham-list{
         display: none;
+    }
+    .searchIcon{
+        background-color: orange;
+        width: 30px;
+        height: 30px;
+
     }
     .active{
         display: block;
@@ -328,7 +334,7 @@ color: rgb(87,87,87);
         width: 90%;
         border-radius: .3rem;
         border: none;
-        padding: 0rem 4rem;
+        padding: 0rem 1rem;
         background-color: rgb(228, 225, 225);
         height: 30px;
     }
@@ -353,7 +359,7 @@ color: rgb(87,87,87);
         gap: .6rem;
     }
     .top-mobo-nav{
-        /* margin-top: 1rem; */
+        margin-top: 1rem;
     }
     .mobSerach{
         position: absolute;
@@ -724,7 +730,7 @@ color: rgb(87,87,87);
 }
 @media screen and (max-width: 238px) {
     .top-mobo-nav{
-        gap: 0rem;
+        gap: 3rem;
         width: 100%;
         
     }
