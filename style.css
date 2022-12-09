@@ -693,7 +693,7 @@ color: rgb(87,87,87);
         background-color: white;
         box-shadow: 1px 1px 4px 1px #cdcbcb;
         flex-direction: column;
-        background-color: blue;padding-top: .5rem;
+        padding-top: .5rem;
         border-radius: .5rem;
     }
     .owl-carousel{
