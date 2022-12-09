@@ -197,7 +197,6 @@ opacity: .7;
     font-size: .8rem;
 }
 .item-card:hover{
-    background-color: blueviolet;
     width: 30%;
     background-color: white;
     box-shadow: 1px 1px 4px 1px #cdcbcb;
