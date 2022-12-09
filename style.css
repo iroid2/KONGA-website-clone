@@ -191,13 +191,16 @@ opacity: .7;
     padding-top: 1.2rem;
 }
 .item-card{
-    width: 30%;
+    width: 40%;
+    height: 200px;
+    padding: 2rem 1rem;
     border-radius: .5rem;
     padding-left: .5rem;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 .item-card:hover{
-    width: 30%;
+    width: 40%;
+    
     background-color: white;
     box-shadow: 1px 1px 4px 1px #cdcbcb;
     border-radius: .5rem;
@@ -686,6 +689,7 @@ color: rgb(87,87,87);
     .item-card{
         background-color: blueviolet;
         width: 40%;
+        height: 300px;
         background-color: white;
         box-shadow: 1px 1px 4px 1px #cdcbcb;
         flex-direction: column;

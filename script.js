@@ -91,12 +91,12 @@ if(response.status===200){
         htmlOutput +=`
         <div class="item-card flex-Start">
         <div class="left-in-card-item center">
-            <img src="${product.thumbnail}" alt=""class="item-img">
+            <img src="${product.thumbnail}" alt=""class="item-img bold">
         </div>
         <div class="right-in-card-item center">
             <p class="item-name">${product.title}</p>
             <div class="price-details center">
-                <p class="current-price bold">Ugx<span class="curr-pric bold">${product.price}</span> </p>
+                <p class="current-price bold">Ugx<span class="curr-pric  bold">${product.price}</span> </p>
                 <p class="original-price">Ugx <span>${product.discountPercentage}</span></p>
             </div>
             <div class="dicount-comment">
