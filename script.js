@@ -87,7 +87,7 @@ if(response.status===200){
     console.log(data.products.slice(0,9))
         
     let htmlOutput="";
-    data.products.slice(0,9).map((product)=>{
+    data.products.slice(0,10).map((product)=>{
         htmlOutput +=`
         <div class="item-card flex-Start">
         <div class="left-in-card-item center">
