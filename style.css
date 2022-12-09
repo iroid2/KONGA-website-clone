@@ -676,7 +676,7 @@ color: rgb(87,87,87);
 
     }
     .item-img{
-        width: 45%;
+        width: 79%;
     }
     
     .right-in-card-item{
@@ -688,8 +688,8 @@ color: rgb(87,87,87);
     }
     .item-card{
         background-color: blueviolet;
-        width: 40%;
-        height: 300px;
+        width: 45%;
+        height: auto;
         background-color: white;
         box-shadow: 1px 1px 4px 1px #cdcbcb;
         flex-direction: column;
