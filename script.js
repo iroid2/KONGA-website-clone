@@ -19,16 +19,21 @@ cancel.addEventListener(("click"),function(e){
 
 
 $('.owl-carousel').owlCarousel({
-    loop:true,
+    
     margin:5,
+    autoplay: true,
+    autoplayTimeout:5000,
+    loop:true,
+    // slideSpeed : 600,
     responsiveClass:true,
+    dots:false,
     responsive:{
         0:{
             items:1,
             nav:true
         },
         600:{
-            items:1,
+            items:2,
             nav:false
         },
         1000:{
@@ -40,6 +45,26 @@ $('.owl-carousel').owlCarousel({
 })
 
 
+$("#owl-demo").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      1000: {
+        items: 4,
+      },
+    },
+  });
+
+
+
+
 document.addEventListener('keydown',(e)=>{
     console.log(e.key)
     if(e.key==="ArrowRight"){
@@ -49,3 +74,39 @@ document.addEventListener('keydown',(e)=>{
     }
 })
 
+const products=document.querySelector(".product-items")
+
+
+async function getProducts(){
+const response=await fetch("https://dummyjson.com/products")
+console.log(response)
+if(response.status===200){
+    const data=await response.json();
+    console.log(data.products)
+
+    console.log(data.products.slice(0,9))
+        
+    let htmlOutput="";
+    data.products.slice(0,9).map((product)=>{
+        htmlOutput +=`
+        <div class="item-card flex-Start">
+        <div class="left-in-card-item center">
+            <img src="${product.thumbnail}" alt=""class="item-img">
+        </div>
+        <div class="right-in-card-item center">
+            <p class="item-name">${product.title}</p>
+            <div class="price-details center">
+                <p class="current-price bold">Ugx<span class="curr-pric bold">${product.price}</span> </p>
+                <p class="original-price">Ugx <span>${product.discountPercentage}</span></p>
+            </div>
+            <div class="dicount-comment">
+                <p class="comment">${product.description}</span></p>
+            </div>
+        </div>
+    </div>`
+});
+products.innerHTML = htmlOutput;
+
+}
+}
+getProducts();
